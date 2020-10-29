@@ -1,0 +1,9 @@
+{% extends "upload.html" %}
+{% block content %}
+
+<br>
+<form action="/download" method=get enctype=multipart/form-data>
+    <input type=submit value=Download>
+</form>
+
+{% endblock %}
